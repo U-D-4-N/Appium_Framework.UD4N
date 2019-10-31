@@ -3,14 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Framework.Appium_UD4N.test.ApiDemoTest3">
+      <class name="Framework.Appium_UD4N.test.ApiDemoTest2">
         <methods>
           <include name="setUP"/>
           <include name="startReport"/>
+          <include name="apiDemosAnimation"/>
           <include name="tearDown"/>
-          <include name="appDemo"/>
+          <include name="quitdriver"/>
         </methods>
-      </class> <!-- Framework.Appium_UD4N.test.ApiDemoTest3 -->
+      </class> <!-- Framework.Appium_UD4N.test.ApiDemoTest2 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
